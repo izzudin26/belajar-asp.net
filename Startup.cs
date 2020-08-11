@@ -1,3 +1,4 @@
+using mongonets.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +12,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Microsoft.VisualBasic;
 using mongonets.Models;
+
 
 namespace mongonets
 {
@@ -32,6 +35,8 @@ namespace mongonets
 
             services.AddSingleton<InformationDatabaseSettings>(sp =>
             sp.GetRequiredService<IOptions<InformationDatabaseSettings>>().Value);
+
+            services.AddSingleton<PersonServices>();
             services.AddControllers();
         }
 

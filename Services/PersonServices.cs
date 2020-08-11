@@ -15,7 +15,20 @@ namespace mongonets.Services
         {
             var client = new MongoClient(settings.ConnectionString);
             var database = client.GetDatabase(settings.DatabaseName);
-            _person = database.GetCollection<Information>(settings.ColllectionName);
+            _person = database.GetCollection<Information>(settings.CollectionName);
+        }
+
+        public List<Information> get() => _person.Find(doc => true).ToList();
+        public Information Get(string id) => _person.Find<Information>(docs => docs.Id == id).FirstOrDefault();
+        public Information create(Information person)
+        {
+             _person.InsertOne(person);
+            return person;
+        }
+
+        public void destroy(string id)
+        {
+            _person.DeleteOne(docs => docs.Id == id);
         }
     }
 }

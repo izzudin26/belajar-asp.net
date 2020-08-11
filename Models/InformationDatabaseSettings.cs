@@ -7,7 +7,7 @@ namespace mongonets.Models
 {
     public class InformationDatabaseSettings
     {
-        public string ColllectionName { get; set; }
+        public string CollectionName { get; set; }
         public string ConnectionString { get; set; }
         public string DatabaseName { get; set; }
 

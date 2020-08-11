@@ -1,0 +1,10 @@
+D:\Programming\C# WEB API\Mongo-CRUD\mongonets\mongonets\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Programming\C# WEB API\Mongo-CRUD\mongonets\mongonets\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Programming\C# WEB API\Mongo-CRUD\mongonets\mongonets\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Programming\C# WEB API\Mongo-CRUD\mongonets\mongonets\bin\Debug\netcoreapp3.1\mongonets.exe
+D:\Programming\C# WEB API\Mongo-CRUD\mongonets\mongonets\obj\Debug\netcoreapp3.1\mongonets.csprojAssemblyReference.cache
+D:\Programming\C# WEB API\Mongo-CRUD\mongonets\mongonets\obj\Debug\netcoreapp3.1\mongonets.AssemblyInfoInputs.cache
+D:\Programming\C# WEB API\Mongo-CRUD\mongonets\mongonets\obj\Debug\netcoreapp3.1\mongonets.AssemblyInfo.cs
+D:\Programming\C# WEB API\Mongo-CRUD\mongonets\mongonets\obj\Debug\netcoreapp3.1\mongonets.RazorTargetAssemblyInfo.cache
+D:\Programming\C# WEB API\Mongo-CRUD\mongonets\mongonets\obj\Debug\netcoreapp3.1\staticwebassets\mongonets.StaticWebAssets.Manifest.cache
+D:\Programming\C# WEB API\Mongo-CRUD\mongonets\mongonets\obj\Debug\netcoreapp3.1\staticwebassets\mongonets.StaticWebAssets.xml

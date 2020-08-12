@@ -26,6 +26,11 @@ namespace mongonets.Services
             return person;
         }
 
+        public void Update(string id, Information person)
+        {
+            _person.ReplaceOne(docs => docs.Id == id, person);
+        }
+
         public void destroy(string id)
         {
             _person.DeleteOne(docs => docs.Id == id);
